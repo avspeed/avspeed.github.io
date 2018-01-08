@@ -13,13 +13,14 @@
 
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<!-- <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 
 <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
 
 <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -47,19 +48,270 @@
 		<h1 class="animated fadeInDown delay-07s">iConf SDK + WebRTC = iConfRTC SDK</h1>
         <ul class="we-create animated fadeInUp delay-1s">
         	<li>A WebRTC based Video Conferencing SDK for your Desktop Applications</li>
-			<li>Coming soon</li>
         </ul>
-
+        <a id="getstarted" class="link animated fadeInUp delay-1s" href="#products">Get Started</a>
 		<div class="row">
 		<span class="email">info@avspeed.com</span>
 		</div>
 		<div class="row">
-		<span>twitter <a target="_blank" href="http://www.twitter.com/avspeed">@avspeed</a></span>
+		<span>twitter <a target="_blank" href="http://www.twitter.com/heyavspeed">@heyavspeed</a></span>
 		</div>
     </div>
 </div>
 </header><!--header-end-->
+
+<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+	<div class="container">
+        <ul class="main-nav">
+        	<li><a href="#header">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#buy">Buy Now</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Get in touch</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav><!--main-nav-end-->
+
+<section class="main-section" id="products"><!--main-section-start-->
+	<div class="container">
+    	<h2>Products</h2>
+    	<h6>iConfRTC - Video Conferencing SDK for .NET</h6>
+        <div class="row">
+        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+            	<div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-video-camera"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Quick Video Chat applications</h3>
+                        <p>Create Video Chat applications using .NET with just a few lines of code.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-users"></i>
+                    </div>
+                	
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-code"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Sample Code to get you started</h3>
+                        <p>Download our sample applications and get started with your application.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-medkit"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Community Support</h3>
+                        <p>Community Support via gitter.im</p>
+                    </div>
+                </div>
+            </div>
+            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+            	<img src="img/pcuser.png" alt="">
+            </figure>
+        <div class="description">
+        	<p class="padding-b" style="margin-right:20%"></p>
+
+        </div>
+	</div>
+</section><!--main-section-end-->
+
+<section class="main-section alabaster" id="download"><!--main-section alabaster-start-->
+	<div class="container">
+    	<div class="row">
+			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+            	<img  src="img/nuget.png" alt="">
+            </figure>
+        	<div class="col-lg-7 col-sm-8 featured-work">
+            	<h2>DOWNLOAD</h2>
+            	<P class="padding-b">If you have any questions installing or using any of these products or sample applications, please contact us</P>
+            	<div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-02s">
+                    	<i class="fa-circle-o"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-02s">
+                        <h3>iConfRTC SDK for .NET</h3>
+                        <br/>
+                        <p>the iConfRTC SDK for .NET ( for windows forms and wpf ) is available for download from the Nuget gallery (x86 and x64 editions)</p>
+                        <p>If you are not familiar with installing nuget packages from Visual Studio, <a target="_blank" href="https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui">here</a> is a reference</p>
+                        <br/>
+                        <p>
+                          You can find the iConfRTC SDK by searching for iconfrtc in the Nuget Package Manager or by using the Package Manager Console Install-Package command
+                          <p>
+                            <img  src="img/nugetpackages.png" alt="">
+                          </p>
+                        </p>
+                        <br/>
+                        <p>
+                        <h3 class="underline">32 bit versions</h3>
+                        <br/>
+                        <p>.NET Windows forms</p>
+                        <a  target="_blank" href="https://www.nuget.org/packages/iConfRTC.Winform.X86/">https://www.nuget.org/packages/iConfRTC.Winform.X86/</a>
+                        <pre><code>
+                          PM> Install-Package iConfRTC.Winform.X86
+                        </code></pre>
+                        <p>.NET WPF</p>
+                        <a  target="_blank" href="https://www.nuget.org/packages/iConfRTC.WPF.X86/">https://www.nuget.org/packages/iConfRTC.WPF.X86/</a>
+                        <pre><code>
+                          PM> Install-Package iConfRTC.WPF.X86
+                        </code></pre>
+                        <br/>
+                        <h3 class="underline">64 bit versions</h3>
+                        <br/>
+                        <p>.NET Windows forms</p>
+                        <a  target="_blank" href="https://www.nuget.org/packages/iConfRTC.Winform.X64/">https://www.nuget.org/packages/iConfRTC.Winform.X64/</a>
+                        <pre><code>
+                          PM> Install-Package iConfRTC.Winform.X64
+                        </code></pre>
+                        <p>.NET WPF</p>
+                        <a  target="_blank" href="https://www.nuget.org/packages/iConfRTC.WPF.X64/">https://www.nuget.org/packages/iConfRTC.WPF.X64/</a>
+                        <pre><code>
+                          PM> Install-Package iConfRTC.WPF.X64
+                        </code></pre>
+                      </p>
+                      
+                    </div>    
+                </div>
+                <div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-04s">
+                    	<i class="fa-circle-o"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-04s">
+                        <h3>Explore some of our sample code on Github</h3>
+                        <p><a href="https://github.com/avspeed/WebRTCTestWinform">Windows Forms .NET demo</a></p>
+                        <p><a href="#">WPF .NET demo (coming soon)</a></p>
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+	</div>
+</section>
+
+<section  id="support" class="main-section alabaster"><!--main-section alabaster-start-->
+	<div class="container">
+    	<div class="row">
+			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+            	<img  src="img/support.png" alt="">
+            </figure>
+        	<div class="col-lg-7 col-sm-8 featured-work">
+            	<h2>Support</h2>
+            	<P class="padding-b">If you are just trying our SDK for the first time, or are an existing customer, here is some information on how to get support.</P>
+            	<div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-02s">
+                    	<i class="fa-send"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-02s">
+                        <h3>Email Support</h3>
+                        <p>Email us at support@avspeed.com or twitter DM @heyavspeed </p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-06s">
+                    	<i class="fa-dashboard"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-06s">
+                        <h3>gitter.im</h3>
+                        <p><a href="https://gitter.im/avspeed/lobby" target="_blank">avspeed gitter channel</a></p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-04s">
+                    	<i class="fa-question-circle"></i>
+                    </div>	
+                	<!-- <div class="featured-box-col2 wow fadeInRight delay-04s">
+                        <h3>SDK Documentation</h3>
+                        <p>Coming soon</p>
+                    </div>     -->
+                </div>
+                
+                <a class="Learn-More" href="#">Learn More</a>
+            </div>
+        </div>
+	</div>
+</section><!--main-section alabaster-end-->
+
+
+
+<section class="main-section paddind" id="buy"><!--main-section-start-->
+	<div class="container">
+    	<h2>Buy Now</h2>
+    	<h6>Very affordable and royalty free licensing details will be available soon.. stay tuned</h6>
+      
+	</div>
+    
+</section><!--main-section-end-->
+
+
+
+<section class="main-section team" id="about"><!--main-section team-start-->
+	<div class="container">
+        <h2>About</h2>
+        <blockquote style="margin-left:100px;margin-right:100px;">AVSPEED is a privately held, software development company that specializes in making it easy for other developers to incorporate collaboration features such as video conferencing in their own apps.
+        We are constantly looking for partnerships with companies or individual software developers who wish to add conferencing capabilities to an existing product. If you would like more information about our products or would like to explore investment opportunities please contact us at info@avspeed.com</blockquote>
+        <!-- <div class="team-leader-block  clearfix">
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/team-leader-pic1.jpg" alt="">
+                    <ul>
+                        <li><a href="#" class="fa-twitter"></a></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s"></h3>
+                <span class="wow fadeInDown delay-03s"></span>
+                <p class="wow fadeInDown delay-03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+            </div>
+            
+        </div> -->
+    </div>
+</section><!--main-section team-end-->
+
+
+
+<section class="business-talking"><!--business-talking-start-->
+	<div class="container">
+        <h2>Get in touch.</h2>
+    </div>
+</section><!--business-talking-end-->
+<div class="container">
+<section class="main-section contact" id="contact">
+	
+        <div class="row">
+        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+            	
+                <div class="contact-info-box email clearfix">
+                	<h3><i class="far fa-envelope"></i> email</h3>
+                  <span>support@avspeed.com</span>
+                  </div>
+                  <div class="contact-info-box email clearfix">
+                  <h3><i class="fab fa-gitter"></i> gitter</h3>
+                	<a  target="_blank" href="https://gitter.im/avspeed/Lobby">gitter.im</span>
+                </div>
+            	
+                <div class="contact-info-box twitter clearfix">
+                	<h3><i class="fab fa-twitter"></i> twitter</h3>
+                	<span><a target="_blank" href="http://www.twitter.com/heyavspeed">@heyavspeed</a></span>
+                </div>
+            </div>
+        	
+        </div>
+</section>
 </div>
+<footer class="footer">
+    <div class="container">
+        
+        <span class="copyright">Copyright © 2018 AVSPEED</span>
+    </div>
+</footer>
 
 
 <script type="text/javascript">
@@ -82,17 +334,32 @@
       }
     );
     wow.init();
-    document.getElementById('').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
+    // document.getElementById('').onclick = function() {
+    //   var section = document.createElement('section');
+    //   section.className = 'wow fadeInDown';
+    //   this.parentNode.insertBefore(section, this);
+    // };
   </script>
 
 
 <script type="text/javascript">
 	$(window).load(function(){
 		
+    $('#getstarted').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+
 		$('.main-nav li a').bind('click',function(event){
 			var $anchor = $(this);
 			
