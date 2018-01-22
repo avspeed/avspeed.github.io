@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "kyOltMODj+LvcxQia2Xdag=="
+          "hash": "rtebRv/aYqlzkibTbI/WOA=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "UvSKfUd1WAFVHA6sGb0DPw=="
+          "hash": "UMro0tH421Gfg8ZVpZYImg=="
         }
       },
       "is_incremental": false,
@@ -40,12 +40,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/avspeedlogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/avspeedlogo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Dq3glY/9C/iBZVpmRQj1IQ=="
+          "hash": "/cuIsSuqgK5QaSJH+dZgZw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +68,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.Device.html",
-          "hash": "HVqjuItjjxC7zN/i31x+Sg=="
+          "hash": "zWB2Tpuiq6j1kYhXwODTxw=="
         }
       },
       "is_incremental": false,
@@ -69,7 +80,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.DeviceEventArgs.html",
-          "hash": "iJrOscJR86AKNqeK9gFijQ=="
+          "hash": "vN34Hipx4ASnO/t/9z18nw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +92,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.DeviceType.html",
-          "hash": "YSvB2dOJSOQ1aMxxrc5GDQ=="
+          "hash": "iYx48t8hgG6XfGQKf8299Q=="
         }
       },
       "is_incremental": false,
@@ -93,7 +104,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.MeetingMessage.html",
-          "hash": "yBng+ajij0Juz236wdrAAQ=="
+          "hash": "eHvWNOUm8RxYXy/jfIAisg=="
         }
       },
       "is_incremental": false,
@@ -105,7 +116,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.MeetingMessageEventArgs.html",
-          "hash": "6dkzZwzvRCol20pKv+Mfhw=="
+          "hash": "TdGmu8Ncgg83N7eYfdrLiQ=="
         }
       },
       "is_incremental": false,
@@ -117,7 +128,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.MeetingParticipants.html",
-          "hash": "LFejw/iGAtbEkqiEVY5hLw=="
+          "hash": "1dWaaYWyCwfyeFYH/bHTlQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +140,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.NewMeetingSessiontEventArgs.html",
-          "hash": "sQ3KH/lq9w9r/KD2K5BHvg=="
+          "hash": "Zn4SOyIGY2U9KoLtLEeRoQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.RTCIceServer.html",
-          "hash": "jhqV/fYCHk2e7vq30pCNSw=="
+          "hash": "p6XlFi923Ia0T5rWcjE/Zg=="
         }
       },
       "is_incremental": false,
@@ -153,7 +164,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.SessionIdRequestEventArgs.html",
-          "hash": "9E5wvFl5blfo4NbbPOaX0g=="
+          "hash": "43uPCsy5bGdVKP3l6BWXKA=="
         }
       },
       "is_incremental": false,
@@ -165,7 +176,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.SignalingTypes.html",
-          "hash": "sdtSCGGi1CsBw6yuodlyzg=="
+          "hash": "ut/QlzhKmsqJ+XTnwQaBUA=="
         }
       },
       "is_incremental": false,
@@ -177,7 +188,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.User.html",
-          "hash": "Zw9punwsiIxTCk9eoYar+g=="
+          "hash": "PhfKlHu1HVyQ1zRkD2rRpg=="
         }
       },
       "is_incremental": false,
@@ -189,7 +200,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.UserArgs.html",
-          "hash": "4aiNSXxNUz6jLua4d0w+lw=="
+          "hash": "bCsQN5FgrhNowiliiZWB/A=="
         }
       },
       "is_incremental": false,
@@ -201,7 +212,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.html",
-          "hash": "t275MIZxyzGMet7/UkxAOg=="
+          "hash": "jzXIZTSd9hxtlRWi1Fl3KQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +224,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWPF.RTCControl.html",
-          "hash": "c/Md3i7Esp7v6t7i0RSz9g=="
+          "hash": "lVY/EHSjViCmYoehvz5SfA=="
         }
       },
       "is_incremental": false,
@@ -225,7 +236,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWPF.html",
-          "hash": "Cuu3lPYe5Uz8blvnOSeqFQ=="
+          "hash": "4FmGsQJIMmPHh+lD6FTUWw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWinForm.RTCControl.html",
-          "hash": "RVzB2xZGjCwdfnlaxA3IxQ=="
+          "hash": "NvwqbkDcTuPedVmBHuA5VQ=="
         }
       },
       "is_incremental": false,
@@ -249,7 +260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWinForm.html",
-          "hash": "XR2JHy6TLWZp2xcRSMGtNg=="
+          "hash": "gfrWwtg0R3eZnoqTtRpyjw=="
         }
       },
       "is_incremental": false,
@@ -284,7 +295,7 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build"
       },
       "processors": {
@@ -299,6 +310,11 @@
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
