@@ -1,0 +1,321 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Dev/iConfRTCBuild/iConfRTCWPF/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "kyOltMODj+LvcxQia2Xdag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "UvSKfUd1WAFVHA6sGb0DPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "xVlQaX7Tk85omoiWv3O+Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Dq3glY/9C/iBZVpmRQj1IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.Device.html",
+          "hash": "HVqjuItjjxC7zN/i31x+Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.DeviceEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.DeviceEventArgs.html",
+          "hash": "iJrOscJR86AKNqeK9gFijQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.DeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.DeviceType.html",
+          "hash": "YSvB2dOJSOQ1aMxxrc5GDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.MeetingMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.MeetingMessage.html",
+          "hash": "yBng+ajij0Juz236wdrAAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.MeetingMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.MeetingMessageEventArgs.html",
+          "hash": "6dkzZwzvRCol20pKv+Mfhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.MeetingParticipants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.MeetingParticipants.html",
+          "hash": "LFejw/iGAtbEkqiEVY5hLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.NewMeetingSessiontEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.NewMeetingSessiontEventArgs.html",
+          "hash": "sQ3KH/lq9w9r/KD2K5BHvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.RTCIceServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.RTCIceServer.html",
+          "hash": "jhqV/fYCHk2e7vq30pCNSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.SessionIdRequestEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.SessionIdRequestEventArgs.html",
+          "hash": "9E5wvFl5blfo4NbbPOaX0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.SignalingTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.SignalingTypes.html",
+          "hash": "sdtSCGGi1CsBw6yuodlyzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.User.html",
+          "hash": "Zw9punwsiIxTCk9eoYar+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.UserArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.UserArgs.html",
+          "hash": "4aiNSXxNUz6jLua4d0w+lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCModel.html",
+          "hash": "t275MIZxyzGMet7/UkxAOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCWPF.RTCControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCWPF.RTCControl.html",
+          "hash": "c/Md3i7Esp7v6t7i0RSz9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCWPF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCWPF.html",
+          "hash": "Cuu3lPYe5Uz8blvnOSeqFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCWinForm.RTCControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCWinForm.RTCControl.html",
+          "hash": "RVzB2xZGjCwdfnlaxA3IxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/iConfRTCWinForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/iConfRTCWinForm.html",
+          "hash": "XR2JHy6TLWZp2xcRSMGtNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Y2R4oWbbEF/yp5FOUXH59w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "X0Wr2skAVrY93O5xNLkLLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

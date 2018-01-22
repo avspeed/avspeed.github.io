@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Thank you for using the iConfRTC SDK | iConfRTC SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Thank you for using the iConfRTC SDK | iConfRTC SDK ">
+    <meta name="generator" content="docfx 2.30.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="thank-you-for-using-the-iconfrtc-sdk">Thank you for using the iConfRTC SDK</h1>
+
+<p>The iConfRTC SDK is a .NET SDK that allows you to easily create video chat enabled applications or integrate video chat capabilities into existing desktop ( and soon mobile ) applications, using WebRTC.</p>
+<h1 id="getting-started">Getting started</h1>
+<p>The easiest way to get started is to access the demo applications that already use the iConfRTC SDK, these are located on github.</p>
+<p>A Windows Forms application</p>
+<p><a href="https://github.com/avspeed/WebRTCTestWinform" target="_blank">https://github.com/avspeed/WebRTCTestWinform</a></p>
+<p>A WPF application</p>
+<p><a href="https://github.com/avspeed/AppRTCWPF" target="_blank">https://github.com/avspeed/AppRTCWPF</a></p>
+<p>Both demo applications ( just like the iConfRTC SDK ) were created using <a href="https://www.visualstudio.com/" target="_blank">Visual Studio 2017</a></p>
+<p>WebRTC dictates that in order to communicate, a mechanism is needed to coordinate communication and to send control messages, a process known as signaling.</p>
+<p>The iConfRTC SDK can use both socket.io and signalR for signaling.</p>
+<p>The demo application connect to a hosted nodejs socket.io based server running on a Windows Server VM. Please note that our signaling server can be used for demo purposes but for production purposes, you should host your own signaling server. </p>
+<p>The socket.io signaling server used by the demo applications can be found on github</p>
+<p><a href="https://github.com/avspeed/RTCSignaling.io" target="_blank">https://github.com/avspeed/RTCSignaling.io</a></p>
+<p>When you setup your own server, point the SignalingUrl property to the RTCControl to the new server. For example for the socket.io server </p>
+<pre><code class="lang-csharp">rtcControl.SignalingUrl = @&quot;192.3.24.139:8080/&quot;;
+</code></pre><h1 id="connecting-users">Connecting users</h1>
+<p>Connecting users is a fairly simple process.</p>
+<p>In order to be in a video/audio call with someone, you both need to be in the same &quot;Meeting&quot;</p>
+<p>A user joins a meeting using a meeting ID and a user name. If the meeting does not exist, it will be created. If the meeting does exist, the user will join the meeting. </p>
+<p>Once you enter the meeting, if any one else joins, you can see/hear the other person and the other person can see/hear you.</p>
+<pre><code class="lang-csharp">
+//Important! Initialize the WebRTC Engine
+RTC.Init()
+
+//setup the signaling
+rtcControl.SignalingURL = @&quot;xxx.xxx.xxx:8080/&quot;;
+
+rtcControl.JoinMeeting(&quot;your_unique_meeting_id&quot;, &quot;patientname&quot;);
+
+Upon successfully Joining the meeting, an event will be triggered
+
+rtcControl_UserJoinedMeeting(object sender, UserArgs e)
+{
+    //the new peer session available event is fired 
+    //a peer joins your meeting or when you join the meeting
+
+    ProcessParticipants(e.Participants);
+}
+
+private void ProcessParticipants(List&lt;MeetingParticipants&gt; participants)
+{
+    //when a user joins a meeting we receive a list of meeting participants ( including yourself ) 
+    //we go through the list , create viewers (RTCControls) for each participant and call ViewSession, 
+    //passing along the participant&#39;s sessionId
+
+    foreach (var participant in participants)
+    {
+        if (participant.Session != iconfRTC.MySession) //you are already seeing yourself :)
+        {
+            bool sessionExists = currParticipants.Any(p =&gt; p.Session == participant.Session);
+
+            if (!sessionExists)
+            {
+                //here we basically create anew instance of the RTCControl
+                //and in this case add a panel to a panel viewer to host that new instance
+
+                var viewer = new RTCControl
+                {
+                    SignalingType = SignalingTypes.Socketio,
+                    SignalingUrl = rtcControl.SignalingUrl,
+                    Dock = DockStyle.Fill
+                };
+
+                var pnlViewerParent = new Panel
+                {
+                    Tag = participant.Session,
+                    Width = 480,
+                    Height = 360
+                };
+
+
+                pnlViewerParent.Controls.Add(viewer);
+
+                pnlViewerParent.Visible = true;
+
+                pnlLayout.Controls.Add(pnlViewerParent);
+
+                currParticipants.Add(new CurrentParticipants { Session = participant.Session, UserName = participant.UserName, PanelLayout = pnlViewerParent, RTCControl = viewer });
+
+
+                //only call webrtc functions when WebRTC is ready!!
+                viewer.RTCInitialized += ((a =&gt;
+                {
+                    //you can add additional ice servers if you&#39;d like
+                    // viewer.AddIceServer(url: &quot;numb.viagenie.ca&quot;, userName: &quot;support@avspeed.com&quot;, password: &quot;avspeedwebrtc&quot;, clearFirst: false, type: &quot;turn&quot;);
+                    //viewer.AddIceServer(&quot;stun.voiparound.com&quot;);
+
+                    //webrtc is ready, connect to signaling
+                    viewer.ViewSession(participant.Session);
+                }));
+            }
+        }
+    }
+
+}
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
