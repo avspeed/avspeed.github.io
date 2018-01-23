@@ -1,14 +1,15 @@
-{ 
-    "name": "AVSPEED", 
-    "version": "1.0.0", 
-    "description": "avspeed website", 
-    "scripts": { 
-      "lite": "lite-server --port 10001", 
-      "start": "npm run lite" 
-    }, 
-    "author": "", 
-    "license": "ISC", 
-    "devDependencies": { 
-      "lite-server": "^1.3.1" 
-    } 
- }
+{
+  "name": "AVSPEED",
+  "version": "1.0.0",
+  "description": "avspeed website",
+  "scripts": {
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^1.3.1"
+  },
+  "dependencies": {}
+}
