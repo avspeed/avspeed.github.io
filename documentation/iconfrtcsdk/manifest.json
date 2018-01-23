@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "rtebRv/aYqlzkibTbI/WOA=="
+          "hash": "h/AIpUvjtUojFLViIM0Q9w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "UMro0tH421Gfg8ZVpZYImg=="
+          "hash": "Ui+FQC8xyLfqbUkZqkODGA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -51,15 +51,26 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "/cuIsSuqgK5QaSJH+dZgZw=="
+          "hash": "s3BSxHS93OOVa1SkRVyQGw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -68,10 +79,10 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.Device.html",
-          "hash": "zWB2Tpuiq6j1kYhXwODTxw=="
+          "hash": "5at3p6p16Q3kW03Fepyxzw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -80,7 +91,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.DeviceEventArgs.html",
-          "hash": "vN34Hipx4ASnO/t/9z18nw=="
+          "hash": "+lvtXiVRoi8gDqeyhKFrkw=="
         }
       },
       "is_incremental": false,
@@ -92,10 +103,10 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.DeviceType.html",
-          "hash": "iYx48t8hgG6XfGQKf8299Q=="
+          "hash": "xEFk7HxmHWfs+IydGasKQQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -104,10 +115,10 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.MeetingMessage.html",
-          "hash": "eHvWNOUm8RxYXy/jfIAisg=="
+          "hash": "pp2M8hck2dFiz6aKLK18Hg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -116,7 +127,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.MeetingMessageEventArgs.html",
-          "hash": "TdGmu8Ncgg83N7eYfdrLiQ=="
+          "hash": "83RVQUvyyjLQXRuIdTieKA=="
         }
       },
       "is_incremental": false,
@@ -128,10 +139,10 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.MeetingParticipants.html",
-          "hash": "1dWaaYWyCwfyeFYH/bHTlQ=="
+          "hash": "UeuX5y8ZxOWCGXwJinh52Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -140,7 +151,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.NewMeetingSessiontEventArgs.html",
-          "hash": "Zn4SOyIGY2U9KoLtLEeRoQ=="
+          "hash": "5wjf5rIq+nNVnnvh83Jsdw=="
         }
       },
       "is_incremental": false,
@@ -152,10 +163,10 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.RTCIceServer.html",
-          "hash": "p6XlFi923Ia0T5rWcjE/Zg=="
+          "hash": "nGf2OsHWGuG0sqVVe82vTw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -164,7 +175,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.SessionIdRequestEventArgs.html",
-          "hash": "43uPCsy5bGdVKP3l6BWXKA=="
+          "hash": "O+siivFi4OQqVRLc6zLuYw=="
         }
       },
       "is_incremental": false,
@@ -176,10 +187,10 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.SignalingTypes.html",
-          "hash": "ut/QlzhKmsqJ+XTnwQaBUA=="
+          "hash": "eOYmLxve5nsT7RoI5nASpA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -188,10 +199,10 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.User.html",
-          "hash": "PhfKlHu1HVyQ1zRkD2rRpg=="
+          "hash": "KzZUFegI7f8EeQ4HKz+Ggg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -200,7 +211,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.UserArgs.html",
-          "hash": "bCsQN5FgrhNowiliiZWB/A=="
+          "hash": "hvfHMvY/ECJ7ZAxFr4m2wQ=="
         }
       },
       "is_incremental": false,
@@ -212,7 +223,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCModel.html",
-          "hash": "jzXIZTSd9hxtlRWi1Fl3KQ=="
+          "hash": "FWEKqL20N0O/7NM3TD4xTQ=="
         }
       },
       "is_incremental": false,
@@ -224,7 +235,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWPF.RTCControl.html",
-          "hash": "lVY/EHSjViCmYoehvz5SfA=="
+          "hash": "gR0+FoQyQ+VgnMzJM7weTg=="
         }
       },
       "is_incremental": false,
@@ -236,7 +247,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWPF.html",
-          "hash": "4FmGsQJIMmPHh+lD6FTUWw=="
+          "hash": "b+rH38dglfLXJhLCZklILA=="
         }
       },
       "is_incremental": false,
@@ -248,7 +259,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWinForm.RTCControl.html",
-          "hash": "NvwqbkDcTuPedVmBHuA5VQ=="
+          "hash": "b6x3Ap3LZrZ1jXLhaSmtkw=="
         }
       },
       "is_incremental": false,
@@ -260,7 +271,7 @@
       "output": {
         ".html": {
           "relative_path": "api/iConfRTCWinForm.html",
-          "hash": "gfrWwtg0R3eZnoqTtRpyjw=="
+          "hash": "MyUORwHPL8DOK+mymukzWA=="
         }
       },
       "is_incremental": false,
@@ -294,7 +305,8 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build"
       },
       "processors": {
@@ -303,12 +315,12 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ResourceDocumentProcessor": {
@@ -320,8 +332,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}
